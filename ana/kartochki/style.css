@@ -1,0 +1,80 @@
+body {
+   font-family: 'Antonio', sans-serif;
+    font-size: 14px;
+}
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.wrapher {
+    width: 660px;
+    margin: 0 auto;
+}
+
+.teacher {
+    padding-bottom: 15px;
+    width: 215px;
+    display: inline-block;
+    
+}
+img {
+    width: 150px;
+    height: 210px;
+    border: 10px solid transparent;
+    
+}
+img:hover {
+    border: 10px solid blue; 
+}
+
+.merkulova::after {
+    content: "зав.каф., професор, д.е.н.";
+}
+
+.yancevich::after {
+    content: "професор, д.ф.-м.н.";
+}
+
+.nosova::after {
+    content: "професор, д.е.н.";
+
+}
+.danich::after {
+    content: "професор, д.е.н.";
+}
+
+.kononova::after {
+    content: "професор, д.е.н.";
+}
+
+.bitkova::after {
+    content: "доцент, к.е.н.";
+}
+
+:after {
+    display: block;
+    color: black;
+    cursor: text;
+}
+
+@media (min-width: 1200px)
+{
+    .wrapher {
+     width: 920px;
+ }
+}
+
+@media (max-width: 960px)
+{
+    .wrapher {
+        width: 435px;
+    }
+}
+@media (max-width: 480px)
+{
+    .wrapher {
+        width: 155px;
+    }
+}
