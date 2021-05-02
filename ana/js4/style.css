@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+.container{
+    margin: 0 auto;
+    width: 760px;
+    background: #edd34e;
+    border-radius: 15%;
+    text-align: center;
+}
+h1{
+    font-size: 30px;
+    margin-top: 80px;
+    padding-top: 20px;
+}
+.right{
+    padding-top: 5px;
+    color: black;
+    background-color: rgba(0, 200, 0, 0.5);
+    
+    border-radius: 20px;
+    padding-left:5px;
+}
+.wrong{
+    padding-top: 5px;
+    background-color: #ff0d0d;
+    border-radius: 20px;
+    width: auto;
+}
+.hidden{
+    display: none;
+}
+.opend{
+    background-color: skyblue;
+}
+input, button{
+    cursor: pointer;
+    
+}
+h2{
+    margin: 0;
+    font-size: 40px;
+}
+.quetion{
+    margin-top: 50px;
+    font-size: 20px;
+}
+span{
+    margin-left: 5px;
+}
+.button1{
+    width: 400px;
+    font-size: 15px;
+    border-radius: 55%;
+    height: 35px;
+    font-weight: bold;
+    
+}
+.button2{
+    font-size: 15px;
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    width: 400px;
+    height: 25px;
+    font-weight: bold;
+    
+}
+.button3{
+    font-size: 15px;
+    border-radius: 20px;
+    background: blue;
+    width: 400px;
+    height: 25px;
+    font-weight: bold;
+    
+}

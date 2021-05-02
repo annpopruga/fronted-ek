@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10p;
+    
+}
+
+body {
+    background-color: blueviolet;
+}
+
+.wrapher {
+    background-color: blueviolet;
+    margin-top: 120px;
+}
+
+
+.right{
+    
+    background-color: green;
+    text-align: center;
+    margin:0 auto;
+}
+.wrong{
+    
+    background-color: red;
+    text-align: center;
+    margin:0 auto;
+    
+}
+
+.hidden{
+    display: none;
+}
