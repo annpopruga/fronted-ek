@@ -1,0 +1,33 @@
+
+.wrapher {
+    width: 800px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.left {
+    width: 400px;
+    text-align: center;
+    background-color: #93a7db;
+}
+
+.me {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+ li {
+    list-style-type: none;
+}
+
+.icons {
+    width: 14px;
+    
+}
+.right {
+    width: 600px;
+    text-align: center;
+    background-color: #617aba;
+}
+
+
